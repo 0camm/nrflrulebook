@@ -3,30 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
-<title>RFL — Official Rulebook</title>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="icon" href="Images/RFL.webp?v=2" type="image/webp">
+<title>NRFL — Official Rulebook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta name="theme-color" content="#03060f">
+<meta name="color-scheme" content="dark">
 <style>
 
 :root{
-  --navy:#0a1f44;
-  --navy-deep:#061530;
-  --navy-mid:#12305e;
-  --steel:#4d6485;
-  --red:#d3122a;--red2:#e8394f;
-  --red-dim:rgba(211,18,42,.07);--red-mid:rgba(211,18,42,.20);--red-edge:rgba(211,18,42,.5);
-  --bg:#f4f5f7;--s1:#ffffff;--s2:#eceef2;--s3:#e2e5eb;--s4:#d7dbe3;
-  --b:rgba(10,31,68,.12);--b2:rgba(10,31,68,.07);--b3:rgba(10,31,68,.20);
-  --mu:#6b7488;--mu2:#a7afbd;
-  --tx:#0c1220;--tx2:#454c5c;
-  --gr:#1c7a3e;--gr-d:rgba(28,122,62,.09);
-  --am:#b9781a;--am-d:rgba(185,120,26,.09);
-  --bl:#2a5ea8;--bl-d:rgba(42,94,168,.08);
-  --gold:#8a6a1f;--gold-d:rgba(201,169,74,.10);--gold-mid:rgba(201,169,74,.30);
-  --win:#178a41;--lose:#b3261e;
-  --shadow-sm:0 2px 10px rgba(10,20,40,.06);
-  --shadow-md:0 10px 28px rgba(10,20,40,.10);
-  --shadow-lg:0 22px 54px rgba(10,20,40,.16);
+  --bg:#03060f;--bg-2:#071022;
+  --blue:#3b63ff;--blue-deep:#2444d6;--ice:#9db8ff;--silver:#e4eaf8;
+  --ink:#f3f6ff;--ink-2:#aab5d0;--ink-3:#6f7c9c;
+  --glass:rgba(255,255,255,.055);--glass-strong:rgba(12,20,40,.62);
+  --edge:rgba(255,255,255,.13);--edge-hi:rgba(255,255,255,.26);--line:rgba(255,255,255,.09);
+  --live:#4ade80;--warn:#e2c072;
+
+  --navy:var(--ink);--navy-deep:var(--bg);--navy-mid:var(--bg-2);--steel:var(--ink-2);
+  /* "red" is now strictly the danger colour (bans etc.); brand accent is blue */
+  --red:#e5404f;--red2:#ff7a88;--red-dim:rgba(255,93,108,.12);--red-mid:rgba(255,93,108,.32);--red-edge:rgba(255,93,108,.5);
+  --accent-dim:rgba(59,99,255,.14);--accent-mid:rgba(59,99,255,.32);--accent-edge:rgba(157,184,255,.55);
+  --s1:rgba(12,20,40,.62);--s2:rgba(255,255,255,.055);--s3:rgba(255,255,255,.09);--s4:rgba(255,255,255,.14);
+  --b:var(--edge);--b2:var(--line);--b3:var(--edge-hi);
+  --mu:var(--ink-3);--mu2:rgba(255,255,255,.3);
+  --tx:var(--ink);--tx2:var(--ink-2);
+  --gr:#4ade80;--gr-d:rgba(74,222,128,.10);
+  --am:#f0b35a;--am-d:rgba(240,179,90,.10);
+  --bl:#9db8ff;--bl-d:rgba(157,184,255,.10);
+  --gold:#e2c072;--gold-d:rgba(226,192,114,.10);--gold-mid:rgba(226,192,114,.34);
+  --win:#4ade80;--lose:#ff7a88;
+  --shadow:0 30px 70px -25px rgba(0,0,0,.75);
+  --shadow-sm:0 10px 26px -14px rgba(0,0,0,.7);--shadow-md:0 18px 44px -18px rgba(0,0,0,.8);--shadow-lg:0 30px 70px -25px rgba(0,0,0,.85);
+  --glass-bg:rgba(3,6,15,.72);
   --nav-h:56px;
   --safe-top:env(safe-area-inset-top,0px);
   --safe-bottom:env(safe-area-inset-bottom,0px);
@@ -35,11 +44,11 @@
 html{scroll-behavior:smooth}
 body{
   background:var(--bg);color:var(--tx);
-  font-family:'Inter',sans-serif;font-size:14px;
+  font-family:'Manrope',sans-serif;font-size:14px;
   min-height:100vh;-webkit-font-smoothing:antialiased;
   width:100%;max-width:100vw;overflow-x:hidden;
 }
-::selection{background:rgba(211,18,42,.15);color:var(--tx)}
+::selection{background:rgba(59,99,255,.45);color:var(--tx)}
 ::-webkit-scrollbar{width:10px;height:10px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--s4);border-radius:8px;border:2px solid var(--bg)}
@@ -57,7 +66,7 @@ nav{
   border-bottom:1px solid var(--b2);
 }
 .nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;-webkit-tap-highlight-color:transparent}
-.nav-brand{font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;letter-spacing:.1em;color:var(--navy);text-transform:uppercase;white-space:nowrap}
+.nav-brand{font-family:'Big Shoulders Display',Impact,sans-serif;font-weight:800;font-size:20px;letter-spacing:.1em;color:var(--navy);text-transform:uppercase;white-space:nowrap}
 .nav-brand em{color:var(--red);font-style:normal}
 .nav-pill{font-size:10px;font-weight:600;letter-spacing:.08em;color:var(--mu);text-transform:uppercase;background:var(--s2);border:1px solid var(--b);border-radius:20px;padding:3px 9px}
 .nav-back{
@@ -80,11 +89,11 @@ nav{
 .rb-eyebrow{
   display:inline-flex;align-items:center;gap:9px;
   font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--red);margin-bottom:14px;position:relative;font-family:'JetBrains Mono',monospace;
+  color:var(--red);margin-bottom:14px;position:relative;font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums;
 }
 .rb-eyebrow::before{content:'';width:20px;height:2px;background:var(--red);border-radius:2px}
 .rb-hero h1{
-  font-family:'Oswald',sans-serif;font-weight:600;
+  font-family:'Big Shoulders Display',Impact,sans-serif;font-weight:800;
   font-size:clamp(36px,8vw,56px);text-transform:uppercase;
   line-height:.98;letter-spacing:.02em;color:var(--navy);margin-bottom:14px;position:relative;
 }
@@ -108,10 +117,10 @@ nav{
 .rb-search svg{flex-shrink:0;color:var(--mu)}
 .rb-search input{
   flex:1;background:none;border:none;outline:none;color:var(--tx);
-  font-family:'Inter',sans-serif;font-size:13.5px;
+  font-family:'Manrope',sans-serif;font-size:13.5px;
 }
 .rb-search input::placeholder{color:var(--mu)}
-.rb-search-count{font-size:11px;color:var(--mu);font-family:'JetBrains Mono',monospace;white-space:nowrap}
+.rb-search-count{font-size:11px;color:var(--mu);font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums;white-space:nowrap}
 
 /* ---------- LAYOUT ---------- */
 .rb-layout{display:flex;align-items:flex-start;max-width:1240px;margin:0 auto;padding:28px 20px 100px;gap:32px}
@@ -135,7 +144,7 @@ nav{
 .rb-section{margin-bottom:44px;scroll-margin-top:calc(var(--nav-h) + var(--safe-top) + 90px)}
 .rb-sec-hd{display:flex;align-items:center;gap:12px;margin-bottom:16px}
 .rb-sec-icon{font-size:20px;line-height:1}
-.rb-sec-title{font-family:'Oswald',sans-serif;font-weight:600;font-size:24px;letter-spacing:.03em;color:var(--navy);text-transform:uppercase}
+.rb-sec-title{font-family:'Big Shoulders Display',Impact,sans-serif;font-weight:800;font-size:28px;letter-spacing:.03em;color:var(--navy);text-transform:uppercase}
 .rb-sec-rule{flex:1;height:1px;background:var(--b2)}
 .rb-sec-intro{font-size:12.5px;color:var(--mu);line-height:1.7;margin-bottom:16px;max-width:720px}
 
@@ -149,7 +158,7 @@ nav{
 .rb-card:hover{box-shadow:var(--shadow-md);border-color:var(--b3);transform:translateY(-1px)}
 .rb-card-hd{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}
 .rb-card-num{
-  font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;color:var(--mu);
+  font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums;font-size:10px;font-weight:700;color:var(--mu);
   background:var(--s3);border:1px solid var(--b);border-radius:4px;padding:2px 7px;flex-shrink:0;
 }
 .rb-card-title{font-size:14px;font-weight:600;color:var(--navy)}
@@ -162,11 +171,11 @@ nav{
 /* punishment escalation chips */
 .rb-punish{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:10px}
 .rb-chip{
-  font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums;font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
   padding:3px 8px;border-radius:4px;white-space:nowrap;
 }
-.rb-chip.warn{background:var(--am-d);color:var(--am);border:1px solid rgba(255,182,61,.18)}
-.rb-chip.mute{background:var(--bl-d);color:var(--bl);border:1px solid rgba(91,156,246,.18)}
+.rb-chip.warn{background:var(--am-d);color:var(--am);border:1px solid rgba(240,179,90,.32)}
+.rb-chip.mute{background:var(--bl-d);color:var(--bl);border:1px solid rgba(157,184,255,.3)}
 .rb-chip.kick{background:var(--s2);color:var(--tx2);border:1px solid var(--b)}
 .rb-chip.ban{background:var(--red-dim);color:var(--red2);border:1px solid var(--red-mid)}
 .rb-chip.perm{background:var(--red);color:#fff;border:1px solid var(--red)}
@@ -196,9 +205,9 @@ nav{
 .rb-tier::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--red)}
 .rb-tier:hover{transform:translateY(-1px);border-color:var(--b3)}
 .rb-tier-hd{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:5px}
-.rb-tier-name{font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;letter-spacing:.03em;color:var(--navy)}
+.rb-tier-name{font-family:'Big Shoulders Display',Impact,sans-serif;font-weight:800;font-size:20px;letter-spacing:.03em;color:var(--navy)}
 .rb-tier-num{
-  font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;color:var(--red2);
+  font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums;font-size:15px;font-weight:700;color:var(--red2);
   background:var(--red-dim);border:1px solid var(--red-mid);border-radius:6px;padding:1px 9px;flex-shrink:0;
 }
 .rb-tier-ex{font-size:11.5px;color:var(--mu);line-height:1.6}
@@ -210,7 +219,7 @@ nav{
 }
 .rb-update:hover{box-shadow:var(--shadow-md);border-color:var(--b3)}
 .rb-update-date{
-  font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.06em;
+  font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums;font-size:10px;font-weight:700;letter-spacing:.06em;
   color:var(--red2);text-transform:uppercase;margin-bottom:6px;display:block;
 }
 .rb-update-title{font-size:14px;font-weight:600;color:var(--navy);margin-bottom:6px}
@@ -229,11 +238,11 @@ nav{
 @media(max-width:640px){.rb-link-grid{grid-template-columns:1fr}}
 .rb-link{
   display:flex;align-items:center;gap:8px;background:var(--s1);border:1px solid var(--b);
-  border-radius:8px;padding:10px 13px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--tx2);
+  border-radius:8px;padding:10px 13px;font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums;font-size:11.5px;color:var(--tx2);
   text-decoration:none;transition:border-color .15s,color .15s,transform .15s;word-break:break-all;
 }
 .rb-link:hover{border-color:var(--b3);color:var(--tx);transform:translateX(1px)}
-.rb-link-tag{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gr);background:var(--gr-d);border-radius:3px;padding:2px 6px;flex-shrink:0;font-family:'Inter',sans-serif}
+.rb-link-tag{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gr);background:var(--gr-d);border-radius:3px;padding:2px 6px;flex-shrink:0;font-family:'Manrope',sans-serif}
 
 /* hidden by search filter */
 .rb-hidden{display:none!important}
@@ -252,7 +261,7 @@ nav{
   .rb-toc-toggle{
     display:flex;align-items:center;justify-content:space-between;width:100%;
     padding:13px 16px;background:none;border:none;color:var(--tx);cursor:pointer;
-    font-family:'Inter',sans-serif;font-size:13px;font-weight:600;
+    font-family:'Manrope',sans-serif;font-size:13px;font-weight:600;
   }
   .rb-toc-list{display:none;padding:0 8px 10px;max-height:50vh;overflow-y:auto}
   .rb-toc-list.open{display:block}
@@ -267,23 +276,157 @@ nav{
 
 /* footer */
 footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-bottom));display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1240px;margin:0 auto}
-.footer-copy{font-size:11px;color:var(--mu2);font-family:'JetBrains Mono',monospace}
+.footer-copy{font-size:11px;color:var(--mu2);font-family:'Manrope',sans-serif;font-variant-numeric:tabular-nums}
 .footer-back{font-size:11px;color:var(--mu2);text-decoration:none;transition:color .18s}
 .footer-back:hover{color:var(--mu)}
 
+
+
+/* ══════════════════════════════════════════════════════════
+   NRFL RULEBOOK — LUXURY GLASS · DARK
+   Matches the NRFL main site: ink navy base, frosted glass
+   surfaces, royal-blue light.
+   Display: Big Shoulders Display · Manrope
+══════════════════════════════════════════════════════════ */
+html{background:var(--bg);color-scheme:dark}
+body{position:relative;line-height:1.5}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(60vw 50vh at 88% -8%,rgba(59,99,255,.34),transparent 70%),
+    radial-gradient(45vw 45vh at 0% 38%,rgba(59,99,255,.15),transparent 70%),
+    radial-gradient(55vw 40vh at 75% 105%,rgba(157,184,255,.12),transparent 70%),
+    linear-gradient(180deg,var(--bg),var(--bg-2) 55%,var(--bg));
+}
+::selection{background:rgba(59,99,255,.45);color:#fff}
+:focus-visible{outline:2px solid var(--ice);outline-offset:3px;border-radius:10px}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14);border-radius:8px;border:2px solid var(--bg)}
+::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.28)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,128,.55)}70%{box-shadow:0 0 0 8px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}}
+
+/* nav — like the site's utility bar */
+nav{background:rgba(3,6,15,.72);border-bottom:1px solid var(--line);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);padding-left:22px;padding-right:22px}
+.nav-back{font-size:13px;font-weight:700;color:var(--ink-2);background:var(--glass);border:1px solid var(--edge);border-radius:999px;padding:6px 16px}
+.nav-back:hover{color:var(--ink);background:rgba(255,255,255,.11);border-color:var(--edge-hi);box-shadow:none;transform:translateY(-1px)}
+.nav-pill{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--silver);background:var(--glass);border:1px solid var(--edge);border-radius:999px;padding:5px 13px}
+.nav-brand{color:var(--ink)}
+
+/* hero */
+.rb-hero{background:none;border-bottom:none;padding-left:22px;padding-right:22px}
+.rb-hero::before{background:radial-gradient(circle,rgba(59,99,255,.22),transparent 70%);top:-60%;right:-10%;width:620px;height:620px}
+.rb-eyebrow{
+  gap:10px;padding:8px 18px 8px 12px;border-radius:999px;margin-bottom:22px;
+  font-family:'Manrope',sans-serif;font-size:13px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--silver);
+  background:linear-gradient(150deg,rgba(255,255,255,.10) -60%,var(--glass) 45%);border:1px solid var(--edge);
+  -webkit-backdrop-filter:blur(22px) saturate(160%);backdrop-filter:blur(22px) saturate(160%);
+}
+.rb-eyebrow::before{width:8px;height:8px;border-radius:50%;background:var(--live);box-shadow:0 0 12px var(--live);animation:pulse 2s ease infinite}
+.rb-hero h1{
+  font-size:clamp(3.4rem,9vw,7rem);font-weight:900;line-height:.95;letter-spacing:.01em;
+  background:linear-gradient(180deg,#fff 25%,var(--ice));-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.rb-hero h1 em{background:none;color:transparent;-webkit-text-fill-color:transparent}
+.rb-hero-sub{font-size:1.02rem;font-weight:500;line-height:1.7;color:var(--ink-2);max-width:62ch}
+.rb-hero-note{font-size:13px;font-weight:500;color:var(--ink-3);border-left:2px solid var(--blue);max-width:62ch}
+
+/* search */
+.rb-search-wrap{background:rgba(3,6,15,.72);border-bottom:1px solid var(--line);-webkit-backdrop-filter:blur(20px) saturate(160%);backdrop-filter:blur(20px) saturate(160%);padding:14px 22px}
+.rb-search{background:linear-gradient(150deg,rgba(255,255,255,.10) -60%,var(--glass) 45%);border:1px solid var(--edge);border-radius:999px;padding:11px 20px;max-width:560px}
+.rb-search:focus-within{border-color:var(--accent-edge);box-shadow:0 0 0 3px var(--accent-dim)}
+.rb-search input{font-size:14px;font-weight:500}
+.rb-search-count{font-weight:700;color:var(--ice)}
+
+/* toc */
+.rb-toc-title{font-size:11px;letter-spacing:.1em;color:var(--ink-3)}
+.rb-toc a{font-weight:600;color:var(--ink-3);border-left:none;border-radius:999px;padding:8px 16px;border:1px solid transparent}
+.rb-toc a:hover{color:var(--ink);background:var(--glass)}
+.rb-toc a.active{color:#fff;background:linear-gradient(180deg,#5b7dff,var(--blue-deep));border-color:rgba(255,255,255,.34);box-shadow:0 10px 26px -10px rgba(59,99,255,.9),inset 0 1px 0 rgba(255,255,255,.4);font-weight:700}
+
+/* sections */
+.rb-sec-title{font-size:clamp(1.9rem,3.6vw,2.7rem);font-weight:800;letter-spacing:.02em;line-height:1;color:var(--ink)}
+.rb-sec-rule{background:var(--line)}
+.rb-sec-intro{font-size:14px;font-weight:500;color:var(--ink-2);line-height:1.75}
+
+/* glass surfaces */
+.rb-card,.rb-tier,.rb-update,.rb-note,.rb-link,.rb-empty,.rb-toc-toggle{
+  background:linear-gradient(150deg,rgba(255,255,255,.10) -60%,var(--glass) 45%);
+  border:1px solid var(--edge);
+  -webkit-backdrop-filter:blur(22px) saturate(160%);backdrop-filter:blur(22px) saturate(160%);
+}
+.rb-card,.rb-tier,.rb-update{border-radius:20px;box-shadow:var(--shadow),inset 0 1px 0 rgba(255,255,255,.2)}
+.rb-card{padding:18px 22px}
+.rb-card::before{left:0;top:16px;bottom:16px;width:3px;border-radius:0 3px 3px 0}
+.rb-card:hover,.rb-tier:hover,.rb-update:hover{transform:translateY(-2px);border-color:var(--edge-hi);box-shadow:var(--shadow),inset 0 1px 0 rgba(255,255,255,.2)}
+.rb-card-num{font-size:11px;font-weight:800;color:var(--ice);background:var(--accent-dim);border:1px solid var(--accent-mid);border-radius:999px;padding:2px 10px}
+.rb-card-title,.rb-update-title{font-size:15.5px;font-weight:800;color:var(--ink)}
+.rb-card-body,.rb-update-body{font-size:13.5px;font-weight:500;color:var(--ink-2);line-height:1.75}
+.rb-card-body strong{color:var(--ink);font-weight:700}
+.rb-note{border-radius:0 18px 18px 0;border-left:3px solid var(--warn);color:var(--ink-3);font-weight:500;font-size:13px}
+.rb-note strong{color:var(--ink-2)}
+.rb-card.c-info::before{background:var(--ice)}
+.rb-card.c-ok::before{background:var(--live)}
+.rb-card.c-warn::before{background:var(--warn)}
+
+/* punishment chips */
+.rb-chip{font-family:'Manrope',sans-serif;font-size:11px;font-weight:800;letter-spacing:.04em;border-radius:999px;padding:4px 11px}
+.rb-chip.warn{border:1px solid rgba(240,179,90,.32)}
+.rb-chip.mute{border:1px solid rgba(157,184,255,.3)}
+.rb-chip.ban{color:var(--red2)}
+.rb-chip.perm{background:linear-gradient(180deg,#ff6a78,#d93a4a);border:1px solid rgba(255,255,255,.3);color:#fff}
+.rb-arrow{color:var(--ink-3)}
+
+/* tiers */
+.rb-tier{padding:18px 22px}
+.rb-tier::before{background:linear-gradient(180deg,#5b7dff,var(--blue-deep));top:16px;bottom:16px;border-radius:0 3px 3px 0}
+.rb-tier-grid{gap:12px;margin-bottom:12px}
+.rb-tier-name{text-transform:uppercase;font-size:24px;font-weight:800;color:var(--ink)}
+.rb-tier-num{font-family:'Manrope',sans-serif;font-size:15px;font-weight:800;color:var(--ice);background:var(--accent-dim);border:1px solid var(--accent-mid);border-radius:999px;padding:2px 14px}
+.rb-tier-ex{font-size:12.5px;font-weight:500;color:var(--ink-3)}
+
+/* updates */
+.rb-update{padding:18px 22px}
+.rb-update-date{font-family:'Manrope',sans-serif;font-size:11px;font-weight:800;letter-spacing:.08em;color:var(--ice)}
+.rb-empty{border:1px dashed var(--edge);border-radius:20px;color:var(--ink-3);font-weight:600}
+
+/* links */
+.rb-link{border-radius:999px;padding:11px 18px;font-family:'Manrope',sans-serif;font-size:13px;font-weight:700;color:var(--ink)}
+.rb-link:hover{border-color:var(--edge-hi);color:#fff;background:rgba(255,255,255,.11);transform:translateY(-2px)}
+.rb-link-tag{font-family:'Manrope',sans-serif;border-radius:999px;padding:2px 9px;font-weight:800;color:var(--live)}
+.rb-noresults{color:var(--ink-3);font-weight:600}
+
+/* footer */
+footer{border-top:1px solid var(--line)}
+.footer-copy,.footer-back{font-family:'Manrope',sans-serif;font-size:12px;font-weight:600;color:var(--ink-3)}
+.footer-back:hover{color:var(--ink)}
+
+@media(max-width:900px){
+  .rb-toc{background:linear-gradient(150deg,rgba(255,255,255,.10) -60%,var(--glass) 45%);border:1px solid var(--edge);border-radius:24px;box-shadow:var(--shadow),inset 0 1px 0 rgba(255,255,255,.2);-webkit-backdrop-filter:blur(22px) saturate(160%);backdrop-filter:blur(22px) saturate(160%)}
+  .rb-toc-toggle{background:none;border:none;-webkit-backdrop-filter:none;backdrop-filter:none;color:var(--ink);font-weight:700;font-size:14px}
+}
+@media(max-width:640px){
+  .rb-hero{padding-left:16px;padding-right:16px}
+  .rb-hero h1{font-size:clamp(3rem,15vw,4.2rem)}
+  .rb-search-wrap{padding:12px 16px}
+  .rb-layout{padding-left:16px;padding-right:16px}
+  .rb-card,.rb-tier,.rb-update{border-radius:18px;padding:16px 18px}
+  .rb-link{border-radius:18px}
+}
+@media(hover:none) and (pointer:coarse){
+  .rb-card:hover,.rb-tier:hover,.rb-update:hover,.rb-link:hover,.nav-back:hover{transform:none}
+}
 </style>
 </head>
 <body>
 
 <nav>
-  <a href="index.html" class="nav-back">← Back to site</a>
+  <a href="https://nrfl.pages.dev/" target="_top" class="nav-back">← Back to site</a>
   <span class="nav-pill">Season 1</span>
 </nav>
 
 <header class="rb-hero">
-  <div class="rb-eyebrow">RFL · Official Documentation</div>
-  <h1>RFL <em>Rulebook</em></h1>
-  <p class="rb-hero-sub">The complete, current set of rules governing RFL gameplay, conduct, franchise ownership, and league procedure. All players are expected to know and follow these rules. Staff and referees have final say on all rulings.</p>
+  <div class="rb-eyebrow">NRFL · Official Documentation</div>
+  <h1>NRFL <em>Rulebook</em></h1>
+  <p class="rb-hero-sub">The complete, current set of rules governing NRFL gameplay, conduct, franchise ownership, and league procedure. All players are expected to know and follow these rules. Staff and referees have final say on all rulings.</p>
   <p class="rb-hero-note">Fundamental rules such as the out-of-bounds rule are considered implicitly understood and are enforced even if not explicitly listed here. This is a brand new league — gameplay-specific rules will be added and expanded as Season 1 progresses.</p>
 </header>
 
@@ -425,7 +568,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
             <li>League drafts will be held every <strong>5 seasons</strong>.</li>
             <li>Each draft will consist of <strong>3 rounds</strong>.</li>
             <li>Each franchise owner will receive <strong>1 pick per round</strong>.</li>
-            <li>Draft order will be determined by RFL staff through randomization or a predetermined order.</li>
+            <li>Draft order will be determined by NRFL staff through randomization or a predetermined order.</li>
             <li>Only registered free agents are eligible to be drafted.</li>
           </ul>
         </div>
@@ -435,8 +578,8 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
         <div class="rb-card-hd"><span class="rb-card-title">Conference Balance</span></div>
         <div class="rb-card-body">
           <ul>
-            <li>The RFL must maintain an equal number of franchises in the <strong>AFC and NFC</strong>.</li>
-            <li>RFL staff may make conference adjustments to keep both conferences balanced.</li>
+            <li>The NRFL must maintain an equal number of franchises in the <strong>AFC and NFC</strong>.</li>
+            <li>NRFL staff may make conference adjustments to keep both conferences balanced.</li>
             <li>Franchise owners must comply with conference changes made by league staff.</li>
           </ul>
         </div>
@@ -459,7 +602,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
         <div class="rb-card-body">
           <ul>
             <li>Franchise owners are responsible for scheduling games with opposing teams.</li>
-            <li>Franchise owners are responsible for uploading game stats in the designated RFL stats channel.</li>
+            <li>Franchise owners are responsible for uploading game stats in the designated NRFL stats channel.</li>
             <li>Walk-on stats do not count toward official statistics.</li>
             <li>Walk-ons are not allowed during the playoffs.</li>
           </ul>
@@ -485,7 +628,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
           <ul>
             <li>Players are expected to remain active and loyal to their team.</li>
             <li>Leaving or refusing to play without a valid reason may result in a penalty or suspension.</li>
-            <li>Repeated inactivity may result in removal from the RFL.</li>
+            <li>Repeated inactivity may result in removal from the NRFL.</li>
             <li>Players may not intentionally sell, sabotage, or grief their team.</li>
             <li>Players may not switch teams outside of the league's approved trade/signing periods.</li>
           </ul>
@@ -508,7 +651,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
 
       <div class="rb-card c-danger">
         <div class="rb-card-hd"><span class="rb-card-title">Hacking, Exploiting &amp; Glitches</span></div>
-        <div class="rb-card-body">Hacking, exploiting, or using unauthorized software is strictly prohibited. No glitches are permitted — this includes double jumping and any other glitch — and using any glitch may result in disciplinary action determined by RFL higher-ups.</div>
+        <div class="rb-card-body">Hacking, exploiting, or using unauthorized software is strictly prohibited. No glitches are permitted — this includes double jumping and any other glitch — and using any glitch may result in disciplinary action determined by NRFL higher-ups.</div>
       </div>
 
       <div class="rb-card c-warn">
@@ -618,7 +761,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
       <div class="rb-sec-hd"><span class="rb-sec-icon">🧱</span><h2 class="rb-sec-title">OL Roll Rule</h2><div class="rb-sec-rule"></div></div>
       <div class="rb-card c-warn">
         <div class="rb-card-hd"><span class="rb-card-title">What Counts as an OL Roll</span></div>
-        <div class="rb-card-body">Chip blocking in the pocket and staying there for longer than 3 blocks before rolling out downfield counts as an OL Roll. Players designated as offensive linemen must also follow all RFL position restrictions — illegal rushing attempts from restricted positions are prohibited.</div>
+        <div class="rb-card-body">Chip blocking in the pocket and staying there for longer than 3 blocks before rolling out downfield counts as an OL Roll. Players designated as offensive linemen must also follow all NRFL position restrictions — illegal rushing attempts from restricted positions are prohibited.</div>
         <div class="rb-punish"><span class="rb-chip warn">10-Yard Penalty</span></div>
       </div>
     </section>
@@ -645,7 +788,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
       <div class="rb-sec-hd"><span class="rb-sec-icon">⚠️</span><h2 class="rb-sec-title">Administrative Abuse</h2><div class="rb-sec-rule"></div></div>
       <div class="rb-card c-danger">
         <div class="rb-card-hd"><span class="rb-card-title">Use of Administrative Powers</span></div>
-        <div class="rb-card-body">Administrative abuse is strictly prohibited. Players and staff members may not use administrative commands, permissions, or authority to create an unfair advantage, interfere with gameplay, or affect the outcome of an official RFL game.</div>
+        <div class="rb-card-body">Administrative abuse is strictly prohibited. Players and staff members may not use administrative commands, permissions, or authority to create an unfair advantage, interfere with gameplay, or affect the outcome of an official NRFL game.</div>
         <div class="rb-punish"><span class="rb-chip warn">10-Yard Penalty</span><span class="rb-arrow">→</span><span class="rb-chip ban">Disciplinary Action</span></div>
       </div>
       <div class="rb-note"><strong>No exceptions:</strong> any moderator, administrator, or high-ranking staff member caught abusing their administrative permissions will be stripped of their position.</div>
@@ -667,7 +810,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
 
       <div class="rb-card c-warn">
         <div class="rb-card-hd"><span class="rb-card-title">Distance Regulation</span></div>
-        <div class="rb-card-body">Teams attempting a Go For It (GFI) must follow the official RFL distance regulation. All GFI attempts must be taken from the <strong>40-yard line</strong>. Any GFI attempt taken from an unauthorized location will be ruled invalid.</div>
+        <div class="rb-card-body">Teams attempting a Go For It (GFI) must follow the official NRFL distance regulation. All GFI attempts must be taken from the <strong>40-yard line</strong>. Any GFI attempt taken from an unauthorized location will be ruled invalid.</div>
       </div>
     </section>
 
@@ -735,7 +878,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
             <li>If a player is suspended for hacking, all stats recorded before the suspension may be removed.</li>
             <li>A player suspended for hacking will be ineligible for league awards.</li>
             <li>The use of glitches or exploits may result in suspension or other disciplinary action.</li>
-            <li>The final punishment will be determined by RFL higher-ups based on the severity of the offense.</li>
+            <li>The final punishment will be determined by NRFL higher-ups based on the severity of the offense.</li>
           </ul>
         </div>
       </div>
@@ -753,8 +896,8 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
     <section class="rb-section" id="leaking">
       <div class="rb-sec-hd"><span class="rb-sec-icon">📝</span><h2 class="rb-sec-title">Leaking</h2><div class="rb-sec-rule"></div></div>
       <div class="rb-card c-danger">
-        <div class="rb-card-hd"><span class="rb-card-title">Leaking Private RFL Information</span></div>
-        <div class="rb-card-body">Leaking is considered a personal rule violation. Leaking private, confidential, or restricted RFL information may result in a suspension. The severity and length of the suspension will be determined by RFL staff.</div>
+        <div class="rb-card-hd"><span class="rb-card-title">Leaking Private NRFL Information</span></div>
+        <div class="rb-card-body">Leaking is considered a personal rule violation. Leaking private, confidential, or restricted NRFL information may result in a suspension. The severity and length of the suspension will be determined by NRFL staff.</div>
         <div class="rb-punish"><span class="rb-chip ban">Suspension</span></div>
       </div>
     </section>
@@ -766,10 +909,10 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
           <ul>
             <li>Players may request trades or releases during the offseason without normal in-season restrictions.</li>
             <li>Free agents may sign with any team unless a draft or other restriction is active.</li>
-            <li>Team relocation must be approved by RFL staff.</li>
+            <li>Team relocation must be approved by NRFL staff.</li>
             <li>New teams may be added or removed during the offseason depending on league activity.</li>
-            <li>Teams must remain active during the offseason to retain their spot in the RFL.</li>
-            <li>Members may become franchise owners with approval from RFL staff.</li>
+            <li>Teams must remain active during the offseason to retain their spot in the NRFL.</li>
+            <li>Members may become franchise owners with approval from NRFL staff.</li>
           </ul>
         </div>
       </div>
@@ -782,7 +925,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
           <ul>
             <li>Franchise owners are responsible for maintaining an active roster.</li>
             <li>Franchise owners are responsible for scheduling games.</li>
-            <li>Franchise owners must ensure their team follows all RFL rules.</li>
+            <li>Franchise owners must ensure their team follows all NRFL rules.</li>
             <li>Franchise owners may not intentionally sell, sabotage, or grief their franchise.</li>
             <li>Franchise owners may not transfer their team's records to another franchise.</li>
             <li>Disbanding a franchise without approval may result in disciplinary action.</li>
@@ -796,7 +939,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
 
       <div class="rb-card c-danger">
         <div class="rb-card-hd"><span class="rb-card-title">Staff Abuse</span></div>
-        <div class="rb-card-body">Any moderator caught abusing their powers will be immediately stripped of their role — no excuses, no warnings, no exceptions. Staff are expected to uphold the rules, not abuse them. All RFL moderators, administrators, referees, and high-ranking staff members are expected to follow the same standards of fairness and professionalism, with no exceptions based on rank.</div>
+        <div class="rb-card-body">Any moderator caught abusing their powers will be immediately stripped of their role — no excuses, no warnings, no exceptions. Staff are expected to uphold the rules, not abuse them. All NRFL moderators, administrators, referees, and high-ranking staff members are expected to follow the same standards of fairness and professionalism, with no exceptions based on rank.</div>
       </div>
 
       <div class="rb-card c-warn">
@@ -808,9 +951,9 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
     <section class="rb-section" id="enforcement">
       <div class="rb-sec-hd"><span class="rb-sec-icon">⚖️</span><h2 class="rb-sec-title">Enforcement</h2><div class="rb-sec-rule"></div></div>
       <div class="rb-card c-info">
-        <div class="rb-card-hd"><span class="rb-card-title">Authority of RFL Officials</span></div>
+        <div class="rb-card-hd"><span class="rb-card-title">Authority of NRFL Officials</span></div>
         <div class="rb-card-body">
-          <p>All official RFL officials have the authority to enforce penalties during official games.</p>
+          <p>All official NRFL officials have the authority to enforce penalties during official games.</p>
           <p>Repeated violations may result in:</p>
           <ul>
             <li>Additional penalties</li>
@@ -818,10 +961,10 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
             <li>Loss of stats</li>
             <li>Forfeits</li>
             <li>Removal from a team</li>
-            <li>Removal from the RFL</li>
+            <li>Removal from the NRFL</li>
             <li>Permanent bans</li>
           </ul>
-          <p>The final punishment for serious offenses will be determined by RFL higher-ups.</p>
+          <p>The final punishment for serious offenses will be determined by NRFL higher-ups.</p>
         </div>
       </div>
     </section>
@@ -840,13 +983,13 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
             <li>No double jumping.</li>
             <li>No hacking or exploiting.</li>
             <li>No doxxing.</li>
-            <li>No leaking private RFL information.</li>
+            <li>No leaking private NRFL information.</li>
             <li>No intentional team griefing or selling.</li>
             <li>Administrative abuse will result in removal from the position.</li>
           </ul>
         </div>
       </div>
-      <p class="rb-sec-intro">If you have any questions regarding the rules, contact an RFL moderator or administrator.</p>
+      <p class="rb-sec-intro">If you have any questions regarding the rules, contact an NRFL moderator or administrator.</p>
     </section>
 
     <section class="rb-section" id="additional">
@@ -867,7 +1010,7 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
 
     <section class="rb-section" id="updates">
       <div class="rb-sec-hd"><span class="rb-sec-icon">🕘</span><h2 class="rb-sec-title">Updates &amp; Amendments</h2><div class="rb-sec-rule"></div></div>
-      <p class="rb-sec-intro">Dated rule changes and clarifications will be posted here as the rulebook grows. RFL is a brand new league — check back regularly as gameplay rules, salary cap details, franchise ownership rules, and more are added throughout Season 1.</p>
+      <p class="rb-sec-intro">Dated rule changes and clarifications will be posted here as the rulebook grows. NRFL is a brand new league — check back regularly as gameplay rules, salary cap details, franchise ownership rules, and more are added throughout Season 1.</p>
 
       <div class="rb-update">
         <span class="rb-update-date">Update</span>
@@ -889,8 +1032,8 @@ footer{border-top:1px solid var(--b2);padding:26px 20px calc(26px + var(--safe-b
 </div>
 
 <footer>
-  <span class="footer-copy">RFL — Revolutionary Football League</span>
-  <a href="index.html" class="footer-back">← Back to main site</a>
+  <span class="footer-copy">NRFL — National Revolutionary Football League</span>
+  <a href="https://nrfl.pages.dev/" target="_top" class="footer-back">← Back to main site</a>
 </footer>
 
 <script>
